@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ByteShortInt/ByteShortInt.iml" filepath="$PROJECT_DIR$/ByteShortInt/ByteShortInt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Charboolean/Charboolean.iml" filepath="$PROJECT_DIR$/Charboolean/Charboolean.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Floatanddouble/Floatanddouble.iml" filepath="$PROJECT_DIR$/Floatanddouble/Floatanddouble.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Floatnaddouble challenge/Floatnaddouble challenge.iml" filepath="$PROJECT_DIR$/Floatnaddouble challenge/Floatnaddouble challenge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Hello World/Hello World.iml" filepath="$PROJECT_DIR$/Hello World/Hello World.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java Lab 5/Java Lab 5.iml" filepath="$PROJECT_DIR$/Java Lab 5/Java Lab 5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Learning Java.iml" filepath="$PROJECT_DIR$/.idea/Learning Java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Operator/Operator.iml" filepath="$PROJECT_DIR$/Operator/Operator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Primitive Types Challenge/Primitive Types Challenge.iml" filepath="$PROJECT_DIR$/Primitive Types Challenge/Primitive Types Challenge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/String/String.iml" filepath="$PROJECT_DIR$/String/String.iml" />
+      <module fileurl="file://$PROJECT_DIR$/untitled/untitled.iml" filepath="$PROJECT_DIR$/untitled/untitled.iml" />
+    </modules>
+  </component>
+</project>
