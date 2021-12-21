@@ -71,5 +71,10 @@ public class Main {
         if(wasCar){
             System.out.println("wasCar is true");
         }
+        int ageofclient = 20;
+        boolean isEighteenOrOver = ageofclient ==20?true:false;
+        if (isEighteenOrOver){
+            System.out.println("Ur allowed");
+        }
     }
 }
