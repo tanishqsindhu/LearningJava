@@ -15,6 +15,7 @@ public class Main {
             System.out.println("You got the high score!");
             score =0;
             //score =100,score>99,You got the high score!,score =0 are expressions
+            //when line is ended with ; it is statement
         }
     }
 }
