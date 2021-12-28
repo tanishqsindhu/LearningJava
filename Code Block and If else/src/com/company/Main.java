@@ -19,6 +19,18 @@ public class Main {
             int finalScore = score+(levelCompleted * bonus);
             System.out.println("Your final score was"+ finalScore);
         }
-        int savedFinalScore = finalScore;
+        //int savedFinalScore = finalScore;
+        //QS print out a second score on the score with the following
+        //score set to 10000
+        //levelCompleted set to 8
+        //bonus set to 200
+        //but make sure the print printout above still displays as well
+        score = 10000;
+        levelCompleted = 8;
+        bonus = 200;
+        if(gameOver) {
+            int secondScore = score + (levelCompleted * bonus);
+            System.out.println(secondScore);
+        }
     }
 }
