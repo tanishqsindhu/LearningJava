@@ -3,21 +3,20 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+        System.out.println(getDurationString(3701));
     }
 
-    public static int getDurationString(int minutes,int seconds) {
+    public static String getDurationString(int minutes,int seconds) {
         if (minutes<0||seconds<0||seconds>59){
-            System.out.println("Invalid Value");
+            return "Invalid Value";
         }
-        int hours = minutes/60;
-        System.out.println(hours+"h "+minutes+"m "+seconds+"s");
-        return 0;
+            int hours = minutes / 60;
+            minutes = minutes%60;
+        return hours + "h " + minutes + "m " + seconds + "s";
     }
-    public static int getDurationString(int seconds){
+    public static String getDurationString(int seconds){
         if (seconds<0){
-            System.out.println("Invalid Value");
-            return -1;
+            return "Invalid Value";
         }
         int minutes = seconds/60;
         int remainingSeconds = seconds%60;
