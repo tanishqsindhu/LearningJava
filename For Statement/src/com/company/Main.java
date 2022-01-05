@@ -32,6 +32,9 @@ public class Main {
                 }
             }
         }
+        for(int i =100;i<130;i+=10){
+            System.out.println(i);
+        }
     }
     public static double calculateInterest(double amount,double interestRate){
         return (amount*(interestRate/100));
