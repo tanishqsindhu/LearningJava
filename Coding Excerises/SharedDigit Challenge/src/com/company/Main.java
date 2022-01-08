@@ -1,19 +1,15 @@
 package com.company;
 
-import java.lang.instrument.IllegalClassFormatException;
-
 public class Main {
 
     public static void main(String[] args) {
-	hasSharedDigit(12,23);
+	hasSharedDigit(19,99);
     }
-    public static boolean hasSharedDigit(int firstRange,int lastRange){
-        if(firstRange<9&&lastRange>100){
+    public static boolean hasSharedDigit(int x,int y) {
+        if((x > 99) || (x < 10) || (y > 99) || (y < 10)) {
             return false;
+        }else {
+            return((x/10 == y/10)||(x/10 == y % 10)||(y/10 == x % 10)||(x%10 == y%10));
         }
-        while (firstRange){
-            if ()
-        }
-        return false;
     }
 }
