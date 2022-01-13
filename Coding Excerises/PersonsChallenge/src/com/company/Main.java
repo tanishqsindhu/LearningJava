@@ -3,6 +3,8 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+	Persons fullname = new Persons();
+        fullname.setFirstName("John");
+        System.out.println(fullname.getFullName());
     }
 }
