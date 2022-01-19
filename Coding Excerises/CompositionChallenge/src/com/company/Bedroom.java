@@ -1,13 +1,13 @@
 package com.company;
 
 public class Bedroom {
-    String name;
-    Wall wall1,wall2,wall3,wall4;
-    Bed bed;
-    Ceiling ceiling;
-    Lamp lamp;
+    private String name;
+    private Wall wall1,wall2,wall3,wall4;
+    private Bed bed;
+    private Ceiling ceiling;
+    private Lamp lamp;
 
-    public Bedroom(String name,Wall wall1, Wall wall2, Wall wall3, Wall wall4, Bed bed, Ceiling ceiling, Lamp lamp) {
+    public Bedroom(String name,Wall wall1, Wall wall2, Wall wall3, Wall wall4, Ceiling ceiling, Bed bed, Lamp lamp) {
         this.name=name;
         this.wall1 = wall1;
         this.wall2 = wall2;
@@ -22,6 +22,6 @@ public class Bedroom {
         return lamp;
     }
     public void makeBed(){
-        Bed.make();
+        bed.make();
     }
 }
