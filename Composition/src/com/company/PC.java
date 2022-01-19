@@ -2,24 +2,22 @@ package com.company;
 
 public class PC {
     private Case theCase;
-    private Motherboard theMotherBoard;
-    private Monitor theMonitor;
+    private Monitor monitor;
+    private Motherboard motherboard;
 
-    public PC(Case theCase, Motherboard theMotherBoard, Monitor theMonitor) {
+    public PC(Case theCase, Monitor monitor, Motherboard motherboard) {
         this.theCase = theCase;
-        this.theMotherBoard = theMotherBoard;
-        this.theMonitor = theMonitor;
+        this.monitor = monitor;
+        this.motherboard = motherboard;
     }
 
-    public Case getTheCase() {
-        return theCase;
+    public void powerUp() {
+        theCase.pressPowerButton();
+        drawLogo();
     }
 
-    public Motherboard getTheMotherBoard() {
-        return theMotherBoard;
-    }
-
-    public Monitor getTheMonitor() {
-        return theMonitor;
+    private void drawLogo() {
+        // Fancy graphics
+        monitor.drawPixelAt(1200, 50, "yellow");
     }
 }
