@@ -9,5 +9,24 @@ public class Car {
     public Car(int cylinders, String name) {
         this.cylinders = cylinders;
         this.name = name;
+        this.engine=true;
+        this.wheels=4;
+    }
+    public String startEngine(){
+        return "Car's engine is starting";
+    }
+    public String accelerate(){
+        return "Car's engine is accelerating";
+    }
+    public String brake(){
+        return "Car's engine is braking";
+    }
+
+    public int getCylinders() {
+        return cylinders;
+    }
+
+    public String getName() {
+        return name;
     }
 }
