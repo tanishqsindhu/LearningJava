@@ -13,13 +13,13 @@ public class Car {
         this.wheels=4;
     }
     public String startEngine(){
-        return "Car's engine is starting";
+        return "Car -> engine starts.";
     }
     public String accelerate(){
-        return "Car's engine is accelerating";
+        return "Car -> accelerating.";
     }
     public String brake(){
-        return "Car's engine is braking";
+        return "Car -> braking.";
     }
 
     public int getCylinders() {

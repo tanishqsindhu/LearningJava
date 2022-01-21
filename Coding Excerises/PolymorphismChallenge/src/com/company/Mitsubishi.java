@@ -1,4 +1,22 @@
 package com.company;
 
-public class Mitsubishi {
+public class Mitsubishi extends Car{
+   public Mitsubishi(int cylinders,String name){
+       super(cylinders, name);
+   }
+
+    @Override
+    public String startEngine() {
+        return "Mitsubishi -> engine starts.";
+    }
+
+    @Override
+    public String accelerate() {
+        return "Mitsubishi -> accelerates.";
+    }
+
+    @Override
+    public String brake() {
+        return "Mitsubishi -> brakes";
+    }
 }

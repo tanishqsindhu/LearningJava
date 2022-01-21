@@ -4,6 +4,10 @@
     <list default="true" id="217634fc-230a-481f-90e4-83d16257c776" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Ford.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Ford.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Holden.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Holden.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Mitsubishi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Mitsubishi.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,6 +101,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
