@@ -17,6 +17,9 @@ public class Main {
         // you will have to figure out how to copy the array elements from the passed array into a new
         // array and sort them and return the new sorted array.
         int[] myIntegers = getIntegers(5);
+        printArray(myIntegers);
+        int [] sortArray = sortArray(myIntegers);
+        printArray(sortArray);
     }
     public static int[] getIntegers(int i){
         int [] myIntArray = new int[i];
@@ -42,7 +45,7 @@ public class Main {
         int temp;
         while(flag){
             flag=false;
-            for (int i =0; i< sortedArray.length;i++){
+            for (int i =0; i< sortedArray.length-1;i++){
                 if (sortedArray[i]<sortedArray[i+1]){
                     temp = sortedArray[i];
                     sortedArray[i]=sortedArray[i+1];
