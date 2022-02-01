@@ -36,6 +36,39 @@ public class MobilePhone {
             System.out.println(oldContact.getName()+", was not found.");
             return false;
         }
-        this.
+        this.myContact.set(foundPosition,newContact);
+        System.out.println(oldContact.getName()+", was replaced with "+newContact.getName());
+        return true;
+    }
+    public boolean removeContact(Contact contact){
+        int foundPosition = findContact(Contact);
+        if (foundPosition<0){
+            System.out.println(Contact.getName()+", was not found.");
+            return false;
+        }
+        this.myContact.remove(foundPosition);
+        System.out.println(contact.getName()+", was deleted.");
+        return true;
+    }
+    public String queryContact(Contact contact){
+        if (findContact(contact)>=0){
+            return contact.getName();
+        }
+        return null;
+    }
+    public Contact queryContact(String name){
+        int position = findContact(name);
+        if (position>=0){
+            return this.myContact.get(position);
+        }
+        return null;
+    }
+    public void printContacts(){
+        System.out.println("Contact List");
+        for (int i = 0 ; i<this.myContact.size();i++){
+            System.out.println((i+1)+"."+
+                    this.myContact.get(i).getName()+" -> "+
+                    this.myContact.get(i).getPhoneNumber());
+        }
     }
 }
