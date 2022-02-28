@@ -24,13 +24,12 @@ public class Monster implements ISaveable {
     }
 
     @Override
-    public Void read(List<String> list) {
+    public void read(List<String> list) {
         if (list!=null&&list.size()>0){
             this.name=list.get(0);
             this.hitPoints=Integer.parseInt(list.get(1));
             this.strength=Integer.parseInt(list.get(2));
         }
-        return null;
     }
     @Override
     public String toString(){
@@ -41,23 +40,11 @@ public class Monster implements ISaveable {
         return name;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
     public int getHitPoints() {
         return hitPoints;
     }
 
-    public void setHitPoints(int hitPoints) {
-        this.hitPoints = hitPoints;
-    }
-
     public int getStrength() {
         return strength;
-    }
-
-    public void setStrength(int strength) {
-        this.strength = strength;
     }
 }
