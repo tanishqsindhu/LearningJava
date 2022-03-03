@@ -2,6 +2,9 @@ package com.company;
 
 import java.util.ArrayList;
 
+/**
+ * Created by dev on 2/10/2015.
+ */
 public class Gearbox {
     private ArrayList<Gear> gears;
     private int maxGears;
@@ -13,6 +16,10 @@ public class Gearbox {
         this.gears = new ArrayList<>();
         Gear neutral = new Gear(0, 0.0);
         this.gears.add(neutral);
+
+        for(int i=0; i<maxGears; i++) {
+            addGear(i, i* 5.3);
+        }
     }
 
     public void operateClutch(boolean in) {
