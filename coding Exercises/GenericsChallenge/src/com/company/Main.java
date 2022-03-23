@@ -13,5 +13,15 @@ public class Main {
         // Only teams of the same type should be added to any particular
         // instance of the league class - the program should fail to compile
         // if an attempt is made to add an incompatible team.
+        League<Team<FootballPlayer>> footballLeague =new League<>("AFL");
+        Team<FootballPlayer> melbourne = new Team<>("Melbourne");
+        Team<FootballPlayer> hawthorn= new Team<>("Hawthorn");
+        Team<FootballPlayer> fremantle= new Team<>("Fremantle");
+        footballLeague.add(melbourne);
+        footballLeague.add(hawthorn);
+        footballLeague.add(fremantle);
+        hawthorn.matchResult(fremantle, 1, 0);
+        hawthorn.matchResult(hawthorn, 3, 8);
+        footballLeague.showLeagueTable();
     }
 }
