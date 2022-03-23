@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a78ec6db-8c0b-4af3-a3cd-a7dd93f2d33d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/CanFly.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Penguin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Penguin.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +15,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
